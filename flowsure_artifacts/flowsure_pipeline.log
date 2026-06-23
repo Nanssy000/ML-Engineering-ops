@@ -369,3 +369,9 @@
 2026-06-23 23:20:19,402 - INFO - FlowSure MLOps pipeline gestart.
 2026-06-23 23:20:19,795 - INFO - Datavalidatie uitgevoerd.
 2026-06-23 23:20:26,228 - INFO - Experiment 'edge_category_model_v1' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
+2026-06-23 23:23:27,518 - INFO - FlowSure MLOps pipeline gestart.
+2026-06-23 23:23:27,934 - INFO - Datavalidatie uitgevoerd.
+2026-06-23 23:23:34,260 - INFO - Experiment 'edge_category_model_v1' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
+2026-06-23 23:23:35,636 - INFO - Experiment 'edge_intent_model_v1' gelogd: {'accuracy': 0.9918, 'macro_f1': 0.9911}
+2026-06-23 23:23:47,419 - INFO - Experiment 'edge_category_model_retrain' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
+2026-06-23 23:23:47,420 - INFO - Hertraining 'edge_category_model_retrain' voltooid: accuracy=0.999, macro_f1=0.9992

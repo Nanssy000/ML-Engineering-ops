@@ -1,7 +1,36 @@
 [
     {
         "run_name": "edge_category_model_v1",
-        "timestamp": "2026-06-23T23:20:26.227794",
+        "timestamp": "2026-06-23T23:23:34.260163",
+        "params": {
+            "classifier__C": 10.0,
+            "tfidf__max_features": 10000,
+            "tfidf__ngram_range": [
+                1,
+                2
+            ]
+        },
+        "metrics": {
+            "accuracy": 0.999,
+            "macro_f1": 0.9992
+        }
+    },
+    {
+        "run_name": "edge_intent_model_v1",
+        "timestamp": "2026-06-23T23:23:35.635775",
+        "params": {
+            "tfidf__max_features": 20000,
+            "tfidf__ngram_range": "(1, 2)",
+            "classifier__C": 1.0
+        },
+        "metrics": {
+            "accuracy": 0.9918,
+            "macro_f1": 0.9911
+        }
+    },
+    {
+        "run_name": "edge_category_model_retrain",
+        "timestamp": "2026-06-23T23:23:47.418701",
         "params": {
             "classifier__C": 10.0,
             "tfidf__max_features": 10000,

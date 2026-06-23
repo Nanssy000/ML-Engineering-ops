@@ -1,4 +1,3 @@
-
 import re
 import joblib
 from fastapi import FastAPI
@@ -32,11 +31,9 @@ def health_check():
 @app.post("/predict")
 def predict_ticket(ticket: TicketRequest):
     cleaned = clean_text(ticket.text)
-
     category = category_model.predict([cleaned])[0]
     intent = intent_model.predict([cleaned])[0]
     confidence = float(category_model.predict_proba([cleaned]).max())
-
     return {
         "category": category,
         "intent": intent,
