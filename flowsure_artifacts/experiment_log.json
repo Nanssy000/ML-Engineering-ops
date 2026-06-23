@@ -1,7 +1,7 @@
 [
     {
         "run_name": "edge_category_model_v1",
-        "timestamp": "2026-06-23T23:19:39.735447",
+        "timestamp": "2026-06-23T23:20:26.227794",
         "params": {
             "classifier__C": 10.0,
             "tfidf__max_features": 10000,
