@@ -1,7 +1,7 @@
 [
     {
         "run_name": "edge_category_model_v1",
-        "timestamp": "2026-06-23T22:02:20.337638",
+        "timestamp": "2026-06-23T22:27:28.430087",
         "params": {
             "classifier__C": 10.0,
             "tfidf__max_features": 10000,
@@ -17,7 +17,7 @@
     },
     {
         "run_name": "edge_intent_model_v1",
-        "timestamp": "2026-06-23T22:02:26.628498",
+        "timestamp": "2026-06-23T22:27:29.947993",
         "params": {
             "tfidf__max_features": 20000,
             "tfidf__ngram_range": "(1, 2)",
@@ -30,7 +30,7 @@
     },
     {
         "run_name": "edge_category_model_retrain",
-        "timestamp": "2026-06-23T22:03:46.481739",
+        "timestamp": "2026-06-23T22:27:36.714877",
         "params": {
             "classifier__C": 10.0,
             "tfidf__max_features": 10000,
