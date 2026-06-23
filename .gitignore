@@ -1,8 +1,8 @@
 # datasets
 *.csv
 
-# generated artifacts
-flowsure_artifacts/
+# large generated datasets (uitgesloten)
+# flowsure_artifacts/  <-- niet meer uitgesloten, modellen worden meegecommit
 
 # notebook cache
 .ipynb_checkpoints/
