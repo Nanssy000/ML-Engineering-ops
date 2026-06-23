@@ -355,3 +355,4 @@
 2026-06-23 22:03:09,495 - WARNING - No such comm: f01c8fda2bca4ac3b87ab191c556e160
 2026-06-23 22:03:46,485 - INFO - Experiment 'edge_category_model_retrain' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
 2026-06-23 22:03:46,485 - INFO - Hertraining 'edge_category_model_retrain' voltooid: accuracy=0.999, macro_f1=0.9992
+2026-06-23 22:52:34,077 - INFO - FlowSure MLOps pipeline gestart.
