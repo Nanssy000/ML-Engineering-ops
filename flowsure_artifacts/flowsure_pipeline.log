@@ -379,3 +379,8 @@
 2026-06-24 12:59:08,980 - INFO - FlowSure MLOps pipeline gestart.
 2026-06-24 13:02:10,448 - INFO - FlowSure MLOps pipeline gestart.
 2026-06-24 13:58:38,810 - INFO - Twitter-tickets gesimuleerd uit Bitext data (twcs.csv ontbreekt).
+2026-06-24 13:59:43,661 - INFO - FlowSure MLOps pipeline gestart.
+2026-06-24 13:59:44,144 - INFO - Twitter-tickets gesimuleerd uit Bitext data (twcs.csv ontbreekt).
+2026-06-24 13:59:44,327 - INFO - Datavalidatie uitgevoerd.
+2026-06-24 14:00:06,127 - INFO - Experiment 'edge_category_model_v1' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
+2026-06-24 14:00:09,084 - INFO - Experiment 'edge_intent_model_v1' gelogd: {'accuracy': 0.9918, 'macro_f1': 0.9911}
