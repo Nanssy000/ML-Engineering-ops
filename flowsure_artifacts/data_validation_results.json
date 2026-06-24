@@ -9,7 +9,7 @@
     },
     {
         "dataset": "Twitter",
-        "row_count": 50000,
+        "row_count": 26872,
         "missing_columns": [],
         "empty_dataset": false,
         "duplicate_rows": 0,
