@@ -384,3 +384,25 @@
 2026-06-24 13:59:44,327 - INFO - Datavalidatie uitgevoerd.
 2026-06-24 14:00:06,127 - INFO - Experiment 'edge_category_model_v1' gelogd: {'accuracy': 0.999, 'macro_f1': 0.9992}
 2026-06-24 14:00:09,084 - INFO - Experiment 'edge_intent_model_v1' gelogd: {'accuracy': 0.9918, 'macro_f1': 0.9911}
+2026-06-24 14:00:25,465 - INFO - HTTP Request: HEAD https://huggingface.co/google/flan-t5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-24 14:00:25,465 - WARNING - Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+2026-06-24 14:00:25,475 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-small/0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab/config.json "HTTP/1.1 200 OK"
+2026-06-24 14:00:25,651 - INFO - HTTP Request: HEAD https://huggingface.co/google/flan-t5-small/resolve/main/tokenizer_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-24 14:00:25,662 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-small/0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab/tokenizer_config.json "HTTP/1.1 200 OK"
+2026-06-24 14:00:25,792 - INFO - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-small/tree/main/additional_chat_templates?recursive=false&expand=false "HTTP/1.1 404 Not Found"
+2026-06-24 14:00:25,910 - INFO - HTTP Request: GET https://huggingface.co/api/models/google/flan-t5-small/tree/main?recursive=true&expand=false "HTTP/1.1 200 OK"
+2026-06-24 14:00:26,486 - INFO - HTTP Request: HEAD https://huggingface.co/google/flan-t5-small/resolve/main/config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-24 14:00:26,501 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-small/0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab/config.json "HTTP/1.1 200 OK"
+2026-06-24 14:00:27,933 - INFO - HTTP Request: HEAD https://huggingface.co/google/flan-t5-small/resolve/main/generation_config.json "HTTP/1.1 307 Temporary Redirect"
+2026-06-24 14:00:27,944 - INFO - HTTP Request: HEAD https://huggingface.co/api/resolve-cache/models/google/flan-t5-small/0fc9ddf78a1e988dac52e2dac162b0ede4fd74ab/generation_config.json "HTTP/1.1 200 OK"
+2026-06-24 14:00:27,999 - WARNING - No such comm: 7e8dd55fe9ea4cab99f1e8b359b9c749
+2026-06-24 14:00:28,002 - WARNING - No such comm: 2dd18867276446fd946a8db3b9d50630
+2026-06-24 14:00:28,004 - WARNING - No such comm: 1454266b3d704d74a6f12edfd27d9746
+2026-06-24 14:00:28,007 - WARNING - No such comm: 14cd33865a4d43c9974e340d39de6203
+2026-06-24 14:00:28,012 - WARNING - No such comm: 64311b56894d4a2bace5fccffb6b111c
+2026-06-24 14:00:28,015 - WARNING - No such comm: 32cd8af5d9714f8fa455844735be0110
+2026-06-24 14:00:28,017 - WARNING - No such comm: 76b20e779758456aabc1b8abc88132ff
+2026-06-24 14:00:28,021 - WARNING - No such comm: 69b941eb2cd64853809c95d83d804c7a
+2026-06-24 14:00:28,024 - WARNING - No such comm: c49de0b0e0104f7abe277ba5a6b73c4c
+2026-06-24 14:00:28,024 - WARNING - No such comm: d893274ebab549a899d87bfb7a3527d1
+2026-06-24 14:00:28,024 - WARNING - No such comm: 0bca22655b5f44bcb3adf5dd48abbd0b
